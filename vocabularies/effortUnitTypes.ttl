@@ -29,7 +29,7 @@ effortUnit:
         :hour ,
         :day ,
         :week ,
-        :metre
+        :metre ,
         :squaremetre ,
         :tree ,
         :hectare ;
