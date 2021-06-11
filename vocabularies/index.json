@@ -1,6 +1,11 @@
 {
-    "induration-style.ttl": "https://linked.data.gov.au/def/induration-style",
-    "petroleum-tenement-type.ttl": "http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum-tenement-type",
-    "tenement-status.ttl": "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenement-status",
-    "tenement-type.ttl": "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype"
+    "effortUnitTypes.ttl": "https://linked.data.gov.au/def/phs/voc/effort-units",
+    "hostTypes.ttl": "https://linked.data.gov.au/def/phs/voc/hosts",
+    "identificationMethodTypes.ttl": "https://linked.data.gov.au/def/phs/voc/idMethods",
+    "inspectionMethodTypes.ttl": "https://linked.data.gov.au/def/phs/voc/inspection-methods",
+    "lureTypes.ttl": "https://linked.data.gov.au/def/phs/voc/lures",
+    "occStatuses.ttl": "https://linked.data.gov.au/def/phs/voc/occstatuses",
+    "substrateTypes.ttl": "https://linked.data.gov.au/def/phs/voc/substrates",
+    "targetPestGroups.ttl": "https://linked.data.gov.au/def/phs/voc/targetpestgroup",
+    "traptypes.ttl": "https://linked.data.gov.au/def/phs/voc/traps"
 }
