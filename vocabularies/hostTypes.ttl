@@ -41,7 +41,7 @@ hosts:
     skos:prefLabel "Apocynaceae"@en ;    
     skos:definition "Apocynaceae is a family of flowering plants that includes trees, shrubs, herbs, stem succulents, and vines, commonly called the dogbane family, after the American plant known as dogbane, Apocynum cannabinum. Members of the family are native to European, Asian, African, Australian, and American tropics or subtropics, with some temperate members. The family Asclepiadaceae (now known as Asclepiadoideae) is considered a subfamily of Apocynaceae and contains 348 genera."@en ;
     rdfs:isDefinedBy  hosts: ;
-    skos:inScheme  hosts: ;
+    skos:inScheme  hosts: 
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:70619;
     phs:hostsPest tpg:hlb ;  

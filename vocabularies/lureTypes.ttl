@@ -29,7 +29,6 @@ lures:
     a skos:Concept , phs:LureType ;
     skos:prefLabel "Lure"@en ;    
     skos:definition "A volatile pure substance that elicits a behavioural response (attraction) specifically by the the target pest"@en ;
-    rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:topConceptOf lures: ;
 .
