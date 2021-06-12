@@ -16,7 +16,7 @@ occstatuses:
     dcterms:contributor <http://orcid.org/0000-0002-8742-7730> ;
     dcterms:created "2021-05-14"^^xsd:date ;
     dcterms:creator <https://orcid.org/0000-0003-3357-2307> ;
-    dcterms:modified "2021-05-14"^^xsd:date ;
+    dcterms:modified "2021-06-12"^^xsd:date ;
     dcterms:provenance "Created for the PHS Ontology Project" ;
     dcterms:publisher <https://linked.data.gov.au/org/dawe> ;
     skos:definition "Statuses that apply to the occurrence of target pests with respect to a single observation"@en ;
@@ -33,7 +33,7 @@ occstatuses:
 :present
     a skos:Concept , phs:OccurrenceStatus ;
     skos:prefLabel "Present"@en ;
-    skos:definition "The target pest group was detected by the observation"@en ;
+    skos:definition "The target pest group was detected by the observation event"@en ;
     rdfs:isDefinedBy occstatuses: ;
     skos:inScheme occstatuses: ;
     skos:topConceptOf occstatuses: ;
@@ -42,7 +42,7 @@ occstatuses:
 :absent
     a skos:Concept , phs:OccurrenceStatus ;
     skos:prefLabel "Absent"@en ;
-    skos:definition "The target pest group was detected by the observation"@en ;
+    skos:definition "The target pest group was not detected by the observation event"@en ;
     rdfs:isDefinedBy occstatuses: ;
     skos:inScheme occstatuses: ;
     skos:topConceptOf occstatuses: ;
@@ -51,7 +51,8 @@ occstatuses:
 :pending
     a skos:Concept , phs:OccurrenceStatus ;
     skos:prefLabel "Pending"@en ;
-    skos:definition "Diagnostic procedures are not complete"@en ;
+    skos:definition "Diagnostic procedures are not yet complete"@en ;
+    rdfs:comment "This status implies that the occurence status of the observation event will be updated once the diagnostic work is complete"@en ;
     rdfs:isDefinedBy occstatuses: ;
     skos:inScheme occstatuses: ;
     skos:topConceptOf occstatuses: ;
@@ -61,6 +62,7 @@ occstatuses:
     a skos:Concept , phs:OccurrenceStatus ;
     skos:prefLabel "Inconclusive"@en ;
     skos:definition "The identity of specimens was not able to be determined"@en ;
+    rdfs:comment "This status may change if subsequent diagnostic work is able to identify the specimen, but it may remain as 'Inconclusive if resources are not available to carry out the work, required specialist skills are not available, the specimen is degraded, or the taxonomy surrounding the specimen is uncertain."@en ;
     rdfs:isDefinedBy occstatuses: ;
     skos:inScheme occstatuses: ;
     skos:topConceptOf occstatuses: ;
