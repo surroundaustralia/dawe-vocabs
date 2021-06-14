@@ -48,7 +48,7 @@ traps:
 :ant-refuge
     a skos:Concept , phs:TrapType ;
     skos:prefLabel "Ant refuge"@en ;    
-    skos:definition "A trap designed to catch ants"@en ;
+    skos:definition "Nick's fake definition"@en ;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:topConceptOf traps:;
