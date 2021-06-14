@@ -57,7 +57,7 @@ traps:
 :vial
     a skos:Concept , phs:TrapType ;
     skos:prefLabel "Ant refuge - vial"@en ;    
-    skos:definition ""@en ;
+    skos:definition "A glass ant refuge"@en ;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     phs:catchesPest tpg:ants ;
