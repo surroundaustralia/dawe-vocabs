@@ -1,7 +1,7 @@
 @prefix : <https://linked.data.gov.au/def/phs/voc/lures/> .
 @prefix lures: <https://linked.data.gov.au/def/phs/voc/lures> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/tpg/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
@@ -41,7 +41,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :alpha-pinene-ethanol
@@ -51,7 +51,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:sawyer-beetle ;  
+    phs:luresPest pest:sawyer-beetle ;  
 .
 
 :alpha-pinene-ipsenol-butenol
@@ -61,7 +61,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:sawyer-beetle ;  
+    phs:luresPest pest:sawyer-beetle ;  
 .
 
 :attractant
@@ -80,7 +80,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:bmsb ;  
+    phs:luresPest pest:bmsb ;  
 .
 
 :cade-oil
@@ -90,7 +90,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :capilure-terpinyl-acetate
@@ -100,7 +100,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :carbohydrate
@@ -110,7 +110,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :attractant ;
-    phs:luresPest tpg:ants ;  
+    phs:luresPest pest:ants ;  
 .
 
 :cue
@@ -120,7 +120,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :cue-lure
@@ -130,7 +130,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :disparlure
@@ -140,7 +140,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:gypsy-moth ;  
+    phs:luresPest pest:gypsy-moth ;  
 .
 
 :faw
@@ -150,8 +150,8 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fall-armyworm ;  
-    phs:luresPest tpg:fall-and-southern-armyworm ;  
+    phs:luresPest pest:fall-armyworm ;  
+    phs:luresPest pest:fall-and-southern-armyworm ;  
 .
 
 :fruit
@@ -161,7 +161,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :attractant ;
-    phs:luresPest tpg:snails ;  
+    phs:luresPest pest:snails ;  
 .
 
 :khapra
@@ -171,7 +171,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:khapra-beetle ;  
+    phs:luresPest pest:khapra-beetle ;  
 .
 
 :khapra-lure-kairomone
@@ -181,7 +181,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:khapra-beetle ;  
+    phs:luresPest pest:khapra-beetle ;  
 .
 
 :khapra-lure-kairomone-wheatgerm
@@ -191,7 +191,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:khapra-beetle ;  
+    phs:luresPest pest:khapra-beetle ;  
 .
 
 :khapra-lure-wheatgerm
@@ -201,7 +201,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:khapra-beetle ;  
+    phs:luresPest pest:khapra-beetle ;  
 .
 
 :methyl-eugenol
@@ -212,7 +212,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :lure ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :mixture
@@ -231,7 +231,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :attractant ;
-    phs:luresPest tpg:snails ;  
+    phs:luresPest pest:snails ;  
 .
 
 :sawyer-beetle-pheromone-kairomone
@@ -241,7 +241,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:sawyer-beetle ;  
+    phs:luresPest pest:sawyer-beetle ;  
 .
 
 :trimedlure-terpinyl-acetate
@@ -251,7 +251,7 @@ lures:
     rdfs:isDefinedBy lures: ;
     skos:inScheme  lures: ;
     skos:broader :mixture ;
-    phs:luresPest tpg:fruit-fly ;  
+    phs:luresPest pest:fruit-fly ;  
 .
 
 :yeast-extract
@@ -262,7 +262,7 @@ lures:
     skos:inScheme  lures: ;
     skos:broader :attractant ;
     skos:related :protein ;
-    phs:luresPest tpg:snails ;  
+    phs:luresPest pest:snails ;  
 .
 
 <https://linked.data.gov.au/org/dawe> 

@@ -8,7 +8,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix taxaas: <https://uat-ag-bie.oztaxa.com/ws/taxon/> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/tpg/> .
 @prefix traps: <https://linked.data.gov.au/def/phs/voc/traps/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -41,7 +41,7 @@ inspect:
     rdfs:isDefinedBy  inspect: ;
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect:;
-    phs:detectsPest tpg:bmsb , tpg:xylella-vectors ;  
+    phs:detectsPest pest:bmsb , pest:xylella-vectors ;  
 .
 
 :brush-and-vacuum
@@ -51,7 +51,7 @@ inspect:
     rdfs:isDefinedBy  inspect: ;
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect:;
-    phs:detectsPest tpg:khapra-beetle ;  
+    phs:detectsPest pest:khapra-beetle ;  
 .
 
 :isolation-from-vector
@@ -61,7 +61,7 @@ inspect:
     rdfs:isDefinedBy  inspect: ;
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect:;
-    phs:detectsPest tpg:pine-wilt-nematode ;  
+    phs:detectsPest pest:pine-wilt-nematode ;  
 .
 
 :sweep-netting
@@ -72,9 +72,9 @@ inspect:
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect:;
     phs:detectsPest 
-        tpg:bmsb ,
-        tpg:khapra-beetle ,
-        tpg:xylella-vectors ;  
+        pest:bmsb ,
+        pest:khapra-beetle ,
+        pest:xylella-vectors ;  
 .
 
 :tissue-sampling
@@ -84,7 +84,7 @@ inspect:
     rdfs:isDefinedBy  inspect: ;
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect:;
-    phs:detectsPest tpg:pine-wilt-nematode ;  
+    phs:detectsPest pest:pine-wilt-nematode ;  
 .
 
 :trapping
@@ -95,15 +95,15 @@ inspect:
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect: ;
     phs:detectsPest 
-        tpg:fall-and-southern-armyworm , 
-        tpg:bmsb , 
-        tpg:citrus-canker , 
-        tpg:fire-blight , 
-        tpg:khapra-beetle , 
-        tpg:saywer-beetle , 
-        tpg:xylella-vectors , 
-        tpg:ants ,
-     tpg:snails ;  
+        pest:fall-and-southern-armyworm , 
+        pest:bmsb , 
+        pest:citrus-canker , 
+        pest:fire-blight , 
+        pest:khapra-beetle , 
+        pest:saywer-beetle , 
+        pest:xylella-vectors , 
+        pest:ants ,
+     pest:snails ;  
 .
 
 :visual
@@ -114,22 +114,22 @@ inspect:
     skos:inScheme  inspect: ;
     skos:topConceptOf inspect: ;
     phs:detectsPest 
-        tpg:anaplophora , 
-        tpg:fall-and-southern-armyworm , 
-        tpg:bmsb , 
-        tpg:citrus-canker , 
-        tpg:fire-blight , 
-        tpg:gypsy-moth , 
-        tpg:fruit-fly , 
-        tpg:hlb , 
-        tpg:hlb-vectors , 
-        tpg:khapra-beetle , 
-        tpg:saywer-beetle , 
-        tpg:pine-wilt-nematode , 
-        tpg:xylella-fastidiosa , 
-        tpg:xylella-vectors , 
-        tpg:ants , 
-        tpg:snails ;  
+        pest:anaplophora , 
+        pest:fall-and-southern-armyworm , 
+        pest:bmsb , 
+        pest:citrus-canker , 
+        pest:fire-blight , 
+        pest:gypsy-moth , 
+        pest:fruit-fly , 
+        pest:hlb , 
+        pest:hlb-vectors , 
+        pest:khapra-beetle , 
+        pest:saywer-beetle , 
+        pest:pine-wilt-nematode , 
+        pest:xylella-fastidiosa , 
+        pest:xylella-vectors , 
+        pest:ants , 
+        pest:snails ;  
 .
 
 <https://linked.data.gov.au/org/dawe> 
