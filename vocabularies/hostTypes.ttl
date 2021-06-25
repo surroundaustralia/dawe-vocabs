@@ -8,7 +8,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix taxaas: <https://uat-ag-bie.oztaxa.com/ws/taxon/> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/tpg/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 hosts:
@@ -44,7 +44,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:70619;
-    phs:hostsPest tpg:hlb ;  
+    phs:hostsPest pest:hlb ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Apocynaceae> ;
 .
 
@@ -56,7 +56,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:82476;
-    phs:hostsPest tpg:sawyer-beetle ;  
+    phs:hostsPest pest:sawyer-beetle ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Betulaceae> ;
 .
 
@@ -68,7 +68,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:82423;
-    phs:hostsPest tpg:citrus-canker ;  
+    phs:hostsPest pest:citrus-canker ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Citrus> ;
 .
 
@@ -80,7 +80,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:65223;
-    phs:hostsPest tpg:hlb ;  
+    phs:hostsPest pest:hlb ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Convolvulaceae> ;
 .
 
@@ -92,7 +92,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:82593;
-    phs:hostsPest tpg:citrus-canker ;  
+    phs:hostsPest pest:citrus-canker ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Fortunella> ;
 .
 
@@ -105,7 +105,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:69671;
-    phs:hostsPest tpg:pine-wilt-nematode ;  
+    phs:hostsPest pest:pine-wilt-nematode ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Monochamus> ;
 .
 
@@ -117,15 +117,15 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     phs:hostsPest 
-        tpg:anoplophora , 
-        tpg:fall-and-southern-armyworm , 
-        tpg:bmsb , 
-        tpg:fire-blight , 
-        tpg:gypsy-moth , 
-        tpg:xylella-fastidiosa , 
-        tpg:xylella-vectors , 
-        tpg:ants , 
-        tpg:snails ;  
+        pest:anoplophora , 
+        pest:fall-and-southern-armyworm , 
+        pest:bmsb , 
+        pest:fire-blight , 
+        pest:gypsy-moth , 
+        pest:xylella-fastidiosa , 
+        pest:xylella-vectors , 
+        pest:ants , 
+        pest:snails ;  
 .
 
 :pinaceae
@@ -136,7 +136,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:82854;
-    phs:hostsPest tpg:sawyer-beetle , tpg:pine-wilt-nematode ;  
+    phs:hostsPest pest:sawyer-beetle , pest:pine-wilt-nematode ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Pinaceae> ;
 .
 
@@ -148,7 +148,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:82145;
-    phs:hostsPest tpg:fire-blight ;  
+    phs:hostsPest pest:fire-blight ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Rosaceae> ;
 .
 
@@ -160,7 +160,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:68687;
-    phs:hostsPest tpg:citrus-canker , tpg:hlb ;  
+    phs:hostsPest pest:citrus-canker , pest:hlb ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Rutaceae> ;
 .
 
@@ -172,7 +172,7 @@ hosts:
     skos:inScheme  hosts: ;
     skos:topConceptOf hosts:;
     dwc:taxonid taxaas:67176;
-    phs:hostsPest tpg:hlb ;  
+    phs:hostsPest pest:hlb ;  
     rdfs:seeAlso <http://dbpedia.org/resource/Solanaceae> ;
 .
 
