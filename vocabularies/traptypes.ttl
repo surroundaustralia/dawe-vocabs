@@ -7,7 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix taxaas: <https://uat-ag-bie.oztaxa.com/ws/taxon/> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/targetpest/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 traps:
@@ -52,7 +52,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:topConceptOf traps:;
-    phs:catchesPest tpg:ants ;  # crosslink!!!!
+    phs:catchesPest pest:ants ;  # crosslink!!!!
 .
 :vial
     a skos:Concept , phs:TrapType ;
@@ -60,7 +60,7 @@ traps:
     skos:definition "A glass ant refuge"@en ;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:ants ;
+    phs:catchesPest pest:ants ;
     skos:broader :ant-refuge
 .
 
@@ -81,7 +81,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :snail-refuge ;  # inverse of above term's narrower
-    phs:catchesPest tpg:snails
+    phs:catchesPest pest:snails
 .
 
 :polystyrene
@@ -91,7 +91,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :snail-refuge ;  # inverse of above term's narrower
-    phs:catchesPest tpg:snails
+    phs:catchesPest pest:snails
 .
 
 :tile
@@ -101,7 +101,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :snail-refuge ; 
-    phs:catchesPest tpg:snails
+    phs:catchesPest pest:snails
 .
 
 :sticky
@@ -120,7 +120,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :sticky ; 
-    phs:catchesPest tpg:bmsb , tpg:agm ;
+    phs:catchesPest pest:bmsb , pest:agm ;
 .
 
 :yellow
@@ -130,7 +130,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :sticky ; 
-    phs:catchesPest tpg:bmsb , tpg:agm , tpg:hlb-vectors , tpg:xylella-vectors ;
+    phs:catchesPest pest:bmsb , pest:agm , pest:hlb-vectors , pest:xylella-vectors ;
 .
 
 :bucket
@@ -140,7 +140,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:topConceptOf traps:;
-    phs:catchesPest tpg:fall-and-southern-armyworm ;
+    phs:catchesPest pest:fall-and-southern-armyworm ;
 .
 
 :delta
@@ -150,7 +150,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fall-and-southern-armyworm ;
+    phs:catchesPest pest:fall-and-southern-armyworm ;
 .
 
 :heliothis
@@ -160,7 +160,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fall-and-southern-armyworm ;
+    phs:catchesPest pest:fall-and-southern-armyworm ;
 .
 
 :homemade
@@ -170,7 +170,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fall-and-southern-armyworm ;
+    phs:catchesPest pest:fall-and-southern-armyworm ;
 .
 
 
@@ -181,7 +181,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:khapra ;
+    phs:catchesPest pest:khapra ;
 .
 :wall
     a skos:Concept , phs:TrapType ;
@@ -190,7 +190,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:khapra ;
+    phs:catchesPest pest:khapra ;
 .
 
 :lynfield
@@ -200,7 +200,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fruit-fly ;
+    phs:catchesPest pest:fruit-fly ;
 .
 
 :patton
@@ -210,7 +210,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fruit-fly ;
+    phs:catchesPest pest:fruit-fly ;
 .
 
 :steiner
@@ -220,7 +220,7 @@ traps:
     skos:topConceptOf traps:;
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
-    phs:catchesPest tpg:fruit-fly ;
+    phs:catchesPest pest:fruit-fly ;
 .
 
 :panel
@@ -239,7 +239,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :panel ; 
-    phs:catchesPest tpg:sawyer-beetle ;
+    phs:catchesPest pest:sawyer-beetle ;
 .
 
 :tall-black-pyramid
@@ -249,7 +249,7 @@ traps:
     rdfs:isDefinedBy  traps: ;
     skos:inScheme  traps: ;
     skos:broader :panel ; 
-    phs:catchesPest tpg:bmsb , tpg:agm ;
+    phs:catchesPest pest:bmsb , pest:agm ;
 .
 
 <https://linked.data.gov.au/org/dawe> 

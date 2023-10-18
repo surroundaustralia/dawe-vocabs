@@ -7,7 +7,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix taxaas: <https://uat-ag-bie.oztaxa.com/ws/taxon/> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/targetpest/> .
 @prefix traps: <https://linked.data.gov.au/def/phs/voc/traps/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -50,10 +50,10 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:bmsb ;
-    phs:supportsPest tpg:gypsy-moth ;
-    phs:supportsPest tpg:snails ;
-    phs:supportsPest tpg:ants ;
+    phs:supportsPest pest:bmsb ;
+    phs:supportsPest pest:gypsy-moth ;
+    phs:supportsPest pest:snails ;
+    phs:supportsPest pest:ants ;
 .
 
 :general-goods
@@ -63,9 +63,9 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:bmsb ;
-    phs:supportsPest tpg:gypsy-moth ;
-    phs:supportsPest tpg:snails ;
+    phs:supportsPest pest:bmsb ;
+    phs:supportsPest pest:gypsy-moth ;
+    phs:supportsPest pest:snails ;
 .
 
 :machinery
@@ -75,10 +75,10 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:bmsb ;
-    phs:supportsPest tpg:gypsy-moth ;
-    phs:supportsPest tpg:snails ;
-    phs:supportsPest tpg:ants ;
+    phs:supportsPest pest:bmsb ;
+    phs:supportsPest pest:gypsy-moth ;
+    phs:supportsPest pest:snails ;
+    phs:supportsPest pest:ants ;
 .
 
 :premises
@@ -88,10 +88,10 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:bmsb ;
-    phs:supportsPest tpg:gypsy-moth ;
-    phs:supportsPest tpg:snails ;
-    phs:supportsPest tpg:ants ;
+    phs:supportsPest pest:bmsb ;
+    phs:supportsPest pest:gypsy-moth ;
+    phs:supportsPest pest:snails ;
+    phs:supportsPest pest:ants ;
 .
 
 :vehicles
@@ -101,10 +101,10 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:bmsb ;
-    phs:supportsPest tpg:gypsy-moth ;
-    phs:supportsPest tpg:snails ;
-    phs:supportsPest tpg:ants ;
+    phs:supportsPest pest:bmsb ;
+    phs:supportsPest pest:gypsy-moth ;
+    phs:supportsPest pest:snails ;
+    phs:supportsPest pest:ants ;
 .
 
 :timber
@@ -123,8 +123,8 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:broader :timber ;
-    phs:supportsPest tpg:anoplophora ;
-    phs:supportsPest tpg:sawyer-beetle ;
+    phs:supportsPest pest:anoplophora ;
+    phs:supportsPest pest:sawyer-beetle ;
 .
 
 :packaging
@@ -134,8 +134,8 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:broader :timber ;
-    phs:supportsPest tpg:anoplophora ;
-    phs:supportsPest tpg:sawyer-beetle ;
+    phs:supportsPest pest:anoplophora ;
+    phs:supportsPest pest:sawyer-beetle ;
 .
 
 :pallets
@@ -145,8 +145,8 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:broader :timber ;
-    phs:supportsPest tpg:anoplophora ;
-    phs:supportsPest tpg:sawyer-beetle ;
+    phs:supportsPest pest:anoplophora ;
+    phs:supportsPest pest:sawyer-beetle ;
 .
 
 :cut-flowers
@@ -156,7 +156,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:xylella-vectors ;
+    phs:supportsPest pest:xylella-vectors ;
 .
 
 :fresh-fruit
@@ -166,7 +166,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:xylella-vectors ;
+    phs:supportsPest pest:xylella-vectors ;
 .
 
 :fresh-vegetables
@@ -176,7 +176,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:xylella-vectors ;
+    phs:supportsPest pest:xylella-vectors ;
 .
 
 :domestic-grain-storage
@@ -186,7 +186,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:khapra-beetle ;
+    phs:supportsPest pest:khapra-beetle ;
 .
 
 :non-food-goods
@@ -196,7 +196,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:khapra-beetle ;
+    phs:supportsPest pest:khapra-beetle ;
 .
 
 :stored-product-premises
@@ -206,7 +206,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:khapra-beetle ;
+    phs:supportsPest pest:khapra-beetle ;
 .
 
 :leaf-litter
@@ -216,7 +216,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:pine-wilt-nematode ;
+    phs:supportsPest pest:pine-wilt-nematode ;
 .
 
 :root
@@ -226,7 +226,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:pine-wilt-nematode ;
+    phs:supportsPest pest:pine-wilt-nematode ;
 .
 
 :trunk-core
@@ -236,7 +236,7 @@ subs:
     rdfs:isDefinedBy  subs: ;
     skos:inScheme  subs: ;
     skos:topConceptOf subs:;
-    phs:supportsPest tpg:pine-wilt-nematode ;
+    phs:supportsPest pest:pine-wilt-nematode ;
 .
 
 <https://linked.data.gov.au/org/dawe> 

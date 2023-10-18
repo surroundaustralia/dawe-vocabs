@@ -1,7 +1,7 @@
 @prefix : <https://linked.data.gov.au/def/phs/voc/id-methods/> .
 @prefix diags: <https://linked.data.gov.au/def/phs/voc/id-methods> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix tpg: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/targetpest/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sdo: <https://schema.org/> .
@@ -47,7 +47,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker , tpg:xylella ;
+    phs:identifiesPest pest:citrus-canker , pest:xylella ;
 .
 
 :catalase-test
@@ -57,7 +57,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:xylella ;
+    phs:identifiesPest pest:xylella ;
 .
 
 :dna-barcode
@@ -67,7 +67,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:fall-southern-armyworm , tpg:sawyer-beetle , tpg:ants ;
+    phs:identifiesPest pest:fall-southern-armyworm , pest:sawyer-beetle , pest:ants ;
 .
 
 :pcr
@@ -78,7 +78,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:anoplophora , tpg:citrus-canker , tpg:fire-blight , tpg:hlb , tpg:pine-wilt-nematode , tpg:xylella , tpg:ants ;
+    phs:identifiesPest pest:anoplophora , pest:citrus-canker , pest:fire-blight , pest:hlb , pest:pine-wilt-nematode , pest:xylella , pest:ants ;
 .
 
 :real-time-pcr
@@ -89,7 +89,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:broader :pcr ;
-    phs:identifiesPest tpg:citrus-canker , tpg:fire-blight , tpg:hlb ;
+    phs:identifiesPest pest:citrus-canker , pest:fire-blight , pest:hlb ;
 .
 
 :morphology
@@ -99,7 +99,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:anoplophora , tpg:fall-southern-armyworm , tpg:bmsb , tpg:gypsy-moth , tpg:fruit-fly , tpg:hlb-vectors , tpg:khapra-beetle , tpg:sawyer-beetle , tpg:xylella-vectors , tpg:snails , tpg:ants ;
+    phs:identifiesPest pest:anoplophora , pest:fall-southern-armyworm , pest:bmsb , pest:gypsy-moth , pest:fruit-fly , pest:hlb-vectors , pest:khapra-beetle , pest:sawyer-beetle , pest:xylella-vectors , pest:snails , pest:ants ;
 .
 
 :morphology-larval
@@ -109,7 +109,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:anoplophora ;
+    phs:identifiesPest pest:anoplophora ;
 .
 
 :iodine-starch
@@ -119,7 +119,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:hlb ;
+    phs:identifiesPest pest:hlb ;
 .
 
 :bacterial-isolation
@@ -129,7 +129,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker ;
+    phs:identifiesPest pest:citrus-canker ;
 .
 
 :leaf
@@ -139,7 +139,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker ;
+    phs:identifiesPest pest:citrus-canker ;
 .
 
 :dna-fingerprint
@@ -149,7 +149,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker ;
+    phs:identifiesPest pest:citrus-canker ;
 .
 
 :elisa
@@ -159,7 +159,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker , tpg:fire-blight ;
+    phs:identifiesPest pest:citrus-canker , pest:fire-blight ;
 .
 
 :immunofluorescence
@@ -169,7 +169,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:fire-blight ;
+    phs:identifiesPest pest:fire-blight ;
 .
 
 :lamp
@@ -179,7 +179,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:fire-blight ;
+    phs:identifiesPest pest:fire-blight ;
 .
 
 :fame
@@ -189,7 +189,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:citrus-canker ;
+    phs:identifiesPest pest:citrus-canker ;
 .
 
 :oxidase-test
@@ -199,7 +199,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:xylella ;
+    phs:identifiesPest pest:xylella ;
 .
 
 :pcr-bacterial
@@ -209,7 +209,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:broader :pcr ;
-    phs:identifiesPest tpg:xylella ;
+    phs:identifiesPest pest:xylella ;
 .
 
 :rdna-sequencing
@@ -219,7 +219,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:xylella ;
+    phs:identifiesPest pest:xylella ;
 .
 
 :gram-stain
@@ -229,7 +229,7 @@ diags:
     rdfs:isDefinedBy  diags: ;
     skos:inScheme  diags: ;
     skos:topConceptOf diags: ;
-    phs:identifiesPest tpg:xylella ;
+    phs:identifiesPest pest:xylella ;
 .
 
 <https://linked.data.gov.au/org/dawe> 
