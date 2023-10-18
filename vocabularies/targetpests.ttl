@@ -22,7 +22,7 @@ pest:
     dcterms:publisher <https://linked.data.gov.au/org/dawe> ;
     skos:definition "Types of taxa or groups of taxa which are considered pests in Australian agriculture"@en ;
     skos:prefLabel "Pest Types"@en ;
-    owl:versionIRI <https://linked.data.gov.au/def/phs/voc/tpg/1.0> ;
+    owl:versionIRI <https://linked.data.gov.au/def/phs/voc/targetpest/1.0> ;
     skos:hasTopConcept
         :anoplophora ,
         :fall-armyworm ,

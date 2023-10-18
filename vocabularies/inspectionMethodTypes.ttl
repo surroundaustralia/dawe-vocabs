@@ -8,7 +8,7 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix taxaas: <https://uat-ag-bie.oztaxa.com/ws/taxon/> .
 @prefix phs: <https://linked.data.gov.au/def/phs#> .
-@prefix pest: <https://linked.data.gov.au/def/phs/voc/tpg/> .
+@prefix pest: <https://linked.data.gov.au/def/phs/voc/targetpest/> .
 @prefix traps: <https://linked.data.gov.au/def/phs/voc/traps/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
